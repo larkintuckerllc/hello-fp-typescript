@@ -1,0 +1,21 @@
+{
+  "name": "hello-fp-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2"
+  },
+  "main": "dist/server.js",
+  "scripts": {
+    "build-ts": "tsc",
+    "start": "npm run serve",
+    "serve": "node dist/server.js",
+    "watch-node": "nodemon dist/server.js",
+    "watch-ts": "tsc -w"
+  }
+}
